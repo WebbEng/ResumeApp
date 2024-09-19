@@ -1,0 +1,21 @@
+<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Resume</title>
+</head>
+<body>
+    <h3>Create Your Resume</h3>
+    <form action="submit_resume.php" method="POST">
+        <!-- Form fields go here -->
+        <input type="Submit" value="Create">
+    </form>
+    <h3>Upload your Resume</h3>
+    <form action="submit_resume.php" method="POST">
+        <!-- Form fields go here -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
